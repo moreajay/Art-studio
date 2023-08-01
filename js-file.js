@@ -61,10 +61,10 @@ $(document).ready(function() {
       scrollTrigger('.fotter-container-bottom')
       scrollTrigger('.footerbottom p')
       scrollTrigger('.social-links')
-
+      scrollTrigger('.studio-detail-heading')
       
-      scrollTrigger('.studio-detail-heading', {
-          rootMargin: '-200px',
-      })
+    //   scrollTrigger('.studio-detail-heading', {
+    //       rootMargin: '-200px',
+    //   })
       
       
