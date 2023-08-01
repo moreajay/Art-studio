@@ -678,12 +678,12 @@ input:focus {
 @media only screen and (max-width: 480px) {
 
   .wrapper {
-    max-width: 340px;
+    max-width: 360px;
   }
 
   .artist {
-    width: calc(100% - 65px);
-    padding: 50px;
+    width: calc(100% - 80px);
+    padding: 60px;
   }
 
   .artist span {
