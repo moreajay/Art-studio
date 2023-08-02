@@ -30,6 +30,7 @@
 .up-arrow:hover::before, .up-arrow:active::before {
   background-color: #d7b065;
   transition: 0.5s;
+  pointer-events: none;
 }
 
 .company-cta:hover, .company-cta:active {
@@ -678,12 +679,12 @@ input:focus {
 @media only screen and (max-width: 480px) {
 
   .wrapper {
-    max-width: 390px;
+    max-width: 350px;
   }
 
   .artist {
-    width: calc(100% - 60px);
-    padding: 70px;
+    width: calc(100% - 55px);
+    padding: 60px;
   }
 
   .artist span {
